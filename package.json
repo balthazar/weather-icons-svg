@@ -1,0 +1,17 @@
+{
+  "name": "weather-icons-svg",
+  "description": "Weather icons SVGs",
+  "main": "src",
+  "version": "0.0.4",
+  "scripts": {},
+  "dependencies": {
+    "hex-to-css-filter": "^3.1.2"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "weather",
+    "icon",
+    "icons"
+  ],
+  "license": "MIT"
+}
