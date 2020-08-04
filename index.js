@@ -181,10 +181,10 @@ const OWM = {
   'night-906': 'night-alt-hail',
 }
 
-export default key => {
-  const k = OWM[key] || key
-
-  return `${BASE_URL}/${k}.svg`
+module.exports = {
+  default: key => {
+    const k = OWM[key] || key
+    return `${BASE_URL}/${k}.svg`
+  },
+  hexToFilter: hex => hexToCSSFilter(hex).filter.replace(';', ''),
 }
-
-export const hexToFilter = hex => hexToCSSFilter(hex).filter.replace(';', '')
