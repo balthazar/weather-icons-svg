@@ -1,4 +1,4 @@
-import { hexToCSSFilter } from 'hex-to-css-filter'
+const { hexToCSSFilter } = require('hex-to-css-filter')
 
 const BASE_URL = 'https://unpkg.com/weather-icons-svg/src'
 
