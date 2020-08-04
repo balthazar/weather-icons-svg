@@ -182,7 +182,7 @@ const OWM = {
 }
 
 module.exports = {
-  default: key => {
+  getIcon: key => {
     const k = OWM[key] || key
     return `${BASE_URL}/${k}.svg`
   },
